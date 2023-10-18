@@ -1,0 +1,23 @@
+.red{
+    background-color: red;
+    height: 300px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.black{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    margin: 50px;
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+font-size: 90px;
+}
+.blue{
+    background-color: blue;
+    padding-bottom:  300px; ;
+}
+.yellow{
+    background-color: yellow;
+    padding-bottom: 300px;
+}
