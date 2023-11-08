@@ -1,23 +1,69 @@
-.red{
-    background-color: red;
-    height: 300px;
-padding-top: 50px;
-padding-bottom: 50px;
+.box1{
+    padding: 100px;
+    background-color: blueviolet;
+    height: 128px;
 }
-.black{
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-    margin: 50px;
+
+
+#box2{
+    padding: 10px;
+    background-color: slateblue;
+    height: 200;
+}
+
+#box3{
+    padding: 10px;
+    background-color: dodgerblue;
+    height: 384px;
+    
+}
+
+#box4{
+    padding: 10px;
+    background-color: rgba(198, 128, 255, 0.5);
+    height: 128px;
+
+}
+
+#box11{
+    margin-left: 550px;
+    padding-top: 50px;
     text-align: center;
-    height: 100px;
-    padding: 50px;
-font-size: 90px;
-}
-.blue{
+    font-size: 40px;
     background-color: blue;
-    padding-bottom:  300px; ;
+    height: 100px;
+    width: 200px;
 }
-.yellow{
-    background-color: yellow;
-    padding-bottom: 300px;
+
+#box44{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#bd{
+    padding-top: 50px;
+    margin-left: 1000px;
+    margin-top: -185px;
+    background-color: blueviolet;
+    color: aqua;
+    height: 100px;
+    width: 300px;
+    font-size: 40px;
+
+}
+
+#psw{
+    padding-top: 50px;
+    margin-left: 200px;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color:darkblue;
+    height: 100px;
+    width: 300px;
+    font-size: 40px;
+
+}
+p{
+    text-align: center;
 }
