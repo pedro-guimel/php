@@ -1,0 +1,47 @@
+.box{
+    background-color:yellow ;
+    display: grid;
+    height: 800px;
+    grid-template-areas:
+    "h h"
+    "m s"
+    "f f";
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 87% 13%;
+}
+
+.header{
+    background-color: aqua;
+    grid-area: h;
+    display: flex;
+justify-content: space-between;
+}
+
+.main{
+    display: grid;
+    flex: 4;
+    grid-template-areas:
+    "bl br";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-area: m;
+}
+
+.boxl {
+    grid-area: bl;
+}
+
+.boxr {
+    grid-area: br;
+}
+
+.side {
+    background-color: blue;
+    flex: 1;
+    grid-area: s;
+}
+
+.footer {
+    background-color: pink;
+    grid-area: f;
+}
